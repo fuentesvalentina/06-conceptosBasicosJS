@@ -17,6 +17,23 @@ console.log(universe);
 anioActual = 2024;
 console.log(anioActual);
 
-document.write('<p class:"parrafoDestacado">esto es una prueba de documento.write</p>')
-
+document.write('<p class="parrafoDestacado">Esto es una prueba de document.write</p>')
+//ventanas emergentes
 alert('Hola Mundo')
+
+//solicitar a un usuario un nombre y mostrar un saludo
+
+const nombreUsuario = prompt('Ingrese su nombre');
+
+console.log(nombreUsuario);
+
+document.write('<p>Bienvenido '+ nombreUsuario +'</p>');
+
+//solicitar al usuario el precio de un producto en dorales;
+const precioSolicitado = parseFloat(prompt('Ingrese un valor en dolares'))
+console.log(precioSolicitado)
+
+//parseint(50)
+//parseFloat(50.4)
+
+alert ('El importe indicado corresponde a USD$'+(precioSolicitado + 2));
